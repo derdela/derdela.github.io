@@ -1,0 +1,42 @@
+a {
+    color: #444;
+}
+a:hover {
+    color: #555;
+}
+.stage {
+    background-image: url('/banner.JPG');
+    background-size: cover;
+}
+.header {
+    background-color: #111;
+    color: #fff;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 10px;
+}
+.header a {
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #aaa;
+}
+hr {
+    width: 80%;
+}
+.content {
+    padding: 50px;
+}
+.post {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.post:hover {
+    background-color: #fcfefe;
+}
+.glyphicon-heart {
+    color: red;
+}
+
+label {
+    width: 200px;
+}

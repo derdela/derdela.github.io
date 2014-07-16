@@ -1,0 +1,28 @@
+{
+  "name": "reddit_blog",
+  "version": "0.0.1",
+  "authors": [
+    "dela <herr.dennis.lange@gmail.com>"
+  ],
+  "description": "a blog based on reddit and angularjs",
+  "main": "index.html",
+  "keywords": [
+    "blog",
+    "reddit",
+    "angular",
+    "github"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.20",
+    "bootstrap": "~3.2.0",
+    "parallax": "~2.1.3"
+  }
+}
