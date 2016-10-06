@@ -1,0 +1,33 @@
+body {
+  color: #FFF;
+  font-family: Helvetica;
+  transition: background-color 1s ease;
+}
+
+.red {
+  background-color: #CE3426;
+}
+
+.green {
+  background-color: #34CE26
+}
+
+.yellow {
+  background-color: #CECE26;
+}
+
+.blue {
+  background-color: #3426CE;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+.countdown {
+  font-size: 72pt;
+}

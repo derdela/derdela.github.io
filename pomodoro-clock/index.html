@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="green">
+    <div class="counter">
+      pomodori today: <span id="counter">0</span>
+    </div>
+    <div id="red">
+      <h1>Please do <b>not</b> talk to me.</h1>
+      <p>i'll have time for you in: 
+      <span class="countdown"><span id="red-minutes"></span>:<span id="red-seconds"></span></span>
+      <button onclick="startGreen()">break</button>
+      </p>
+    </div>
+    <div id="green">
+      <h1>I'm free to talk :)</h1>
+      <span class="countdown"><span id="green-minutes"></span>:<span id="green-seconds"></span></span>
+      <button onclick="startRed()">start</button>
+    </div>
+    <div id="yellow">
+      <h1>Ok, time to leave the tunnel!</h1>
+      <button onclick="startGreen()">ok</button>
+    </div>
+    <div id="blue">
+      <h1>Back to work!</h1>
+      <button onclick="startRed()">ok</button>
+    </div>
+      <script src="./app.js"></script>
+  </body>
+</html>
